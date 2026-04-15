@@ -1,0 +1,42 @@
+baseURL = 'https://aymantech.net'
+languageCode = 'en-us'
+title = 'Ayman | DevOps & Infrastructure'
+theme = 'PaperMod'
+
+[params]
+    env = 'production'
+    description = 'DevOps Engineer specializing in Kubernetes, Terraform, and Automation.'
+    author = 'Ayman'
+
+    [params.profileMode]
+        enabled = true
+        title = 'Ayman'
+        subtitle = 'DevOps & Infrastructure Engineer | Based in the Netherlands 🇳🇱'
+        imageUrl = '' # Add a link to your photo later if you want
+        imageTitle = 'Ayman'
+        
+        [[params.profileMode.buttons]]
+            name = 'View CV'
+            url = '/cv'
+        [[params.profileMode.buttons]]
+            name = 'Blog / TIL'
+            url = '/posts'
+
+    [[params.socialIcons]]
+        name = 'github'
+        url = 'https://github.com/your-username'
+    [[params.socialIcons]]
+        name = 'linkedin'
+        url = 'https://linkedin.com/in/your-username'
+
+[menu]
+    [[menu.main]]
+        identifier = 'posts'
+        name = 'Posts'
+        url = '/posts/'
+        weight = 10
+    [[menu.main]]
+        identifier = 'tags'
+        name = 'Tags'
+        url = '/tags/'
+        weight = 20
