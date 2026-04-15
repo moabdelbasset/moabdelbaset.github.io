@@ -1,4 +1,4 @@
-baseURL = 'https://aymantech.net'
+baseURL = 'https://blog.aymantech.net'
 languageCode = 'en-us'
 title = 'Mohamed Ayman | DevOps & Infrastructure'
 theme = 'PaperMod'
