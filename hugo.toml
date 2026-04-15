@@ -1,16 +1,16 @@
 baseURL = 'https://aymantech.net'
 languageCode = 'en-us'
-title = 'Ayman | DevOps & Infrastructure'
+title = 'Mohamed Ayman | DevOps & Infrastructure'
 theme = 'PaperMod'
 
 [params]
     env = 'production'
     description = 'DevOps Engineer specializing in Kubernetes, Terraform, and Automation.'
-    author = 'Ayman'
+    author = 'Mohamed Ayman'
 
     [params.profileMode]
         enabled = true
-        title = 'Ayman'
+        title = 'Mohamed Ayman'
         subtitle = 'DevOps & Infrastructure Engineer | Based in the Netherlands 🇳🇱'
         imageUrl = '' # Add a link to your photo later if you want
         imageTitle = 'Ayman'
