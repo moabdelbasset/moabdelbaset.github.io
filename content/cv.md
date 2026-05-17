@@ -1,6 +1,6 @@
 +++
 title = 'CV'
-date = '2026-05-18'
+date = '2026-05-17'
 draft = false
 showToc = true
 TocOpen = true
