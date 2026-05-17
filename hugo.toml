@@ -24,10 +24,10 @@ theme = 'PaperMod'
 
     [[params.socialIcons]]
         name = 'github'
-        url = 'https://github.com/your-username'
+        url = 'https://github.com/moabdelbasset'
     [[params.socialIcons]]
         name = 'linkedin'
-        url = 'https://linkedin.com/in/your-username'
+        url = 'https://www.linkedin.com/in/mohamed-abdelbasset-b29b5b66/'
 
 [menu]
     [[menu.main]]
