@@ -3,7 +3,7 @@ title = 'CV'
 date = '2026-05-17'
 draft = false
 showToc = true
-TocOpen = true
+TocOpen = false
 hidemeta = true
 disableShare = true
 ShowReadingTime = false
@@ -11,120 +11,179 @@ ShowBreadCrumbs = false
 ShowPostNavLinks = false
 +++
 
-# Mohamed Abdelbasset
+# Mohamed Ayman Abdelbaset
 
-**Experienced DevOps Professional with a Passion for Continuous Integration and Delivery**
+### DevOps Engineer — Infrastructure & Automation
 
-Diemen, North Holland, Netherlands
-
-- 📧 mohamedayman@hotmail.com
-- 📱 +31 6 85783367
-- 🔗 [LinkedIn](https://www.linkedin.com/in/mohamed-abdelbasset-b29b5b66/)
-- 💻 [GitHub](https://github.com/moabdelbasset)
+Diemen, Netherlands  ·  [mohamedayman@hotmail.com](mailto:mohamedayman@hotmail.com)  ·  [LinkedIn](https://www.linkedin.com/in/mohamed-abdelbasset-b29b5b66/)  ·  [GitHub](https://github.com/moabdelbasset)
 
 ---
 
-## Summary
+## Profile
 
-To succeed in an environment of growth and excellence and earn a job which provides me job satisfaction and self development and help me achieve personal as well as organizational goals.
+DevOps engineer with **10+ years** across Linux/Unix administration, multi-cloud infrastructure, and CI/CD automation. I architect Kubernetes and Terraform-based platforms, codify operations with Ansible, and turn legacy environments into reliable, automated delivery pipelines. Most effective at the seam between deep technical work and cross-team delivery — translating engineering detail into outcomes stakeholders can plan against.
+
+## Highlights
+
+- **10+ years** in infrastructure, systems engineering, and DevOps
+- Architected the **multi-cloud Terraform Enterprise** rollout across AWS, Azure, and GCP at IBM
+- Multi-cloud hands-on: **AWS, GCP, Azure, OCI**
+- Sustained **NPS above 85%** across senior support roles at IBM and Atlassian
+- Led **on-prem → Oracle Cloud** migrations at Oracle ACS across EMEA
+- Operated **200+ servers** in 24x7 telecom and enterprise data centers
+
+---
+
+## Core Skills
+
+**Cloud Platforms**
+AWS · Google Cloud Platform · Microsoft Azure · Oracle Cloud Infrastructure
+
+**Infrastructure as Code & Automation**
+Terraform · Terraform Enterprise · Ansible · Shell scripting · Process automation
+
+**Containers & Orchestration**
+Kubernetes · Docker · OpenShift
+
+**CI/CD & DevTools**
+Bitbucket · Bamboo · Continuous integration & delivery pipelines
+
+**Operating Systems**
+Red Hat Enterprise Linux · CentOS · Ubuntu · Fedora · Solaris · AIX · HP-UX
+
+**Networking & Monitoring**
+TCP/IP · MPLS · Cisco routing & switching · HP OpenView · Oracle OpsCenter
+
+**Ways of Working**
+Agile delivery · Incident & escalation management · Technical mentoring · Knowledge engineering
 
 ---
 
 ## Experience
 
-### Atlassian — Senior Support Engineer
-*March 2022 – Present · Amsterdam*
+### Senior Terraform Support Engineer — IBM
+*October 2025 – Present · Amsterdam*
 
-- Handled complex support tickets for Bitbucket and Bamboo, ensuring timely solutions.
-- Collaborated with Tier 3 and Engineering teams as an internal escalation engineer to resolve critical issues.
-- Developed training materials and knowledge base articles to enhance customer and engineer skills.
-- Maintained a Net Promoter Score (NPS) above 80%, reflecting high customer satisfaction.
+- **Architected and automated the multi-cloud deployment of Terraform Enterprise** across AWS, Azure, and GCP.
+- Lead technical point of contact for key enterprise clients on Terraform Enterprise infrastructure.
+- Drive accurate, fast issue resolution while documenting each case to keep internal runbooks current.
+- Sustained an **NPS above 85%**.
 
-### RSA Security — Principal Service Delivery Engineer
-*January 2021 – February 2022 · Cairo, Egypt*
+### Senior DevTools Support Engineer — Atlassian
+*March 2023 – September 2025 · Amsterdam*
 
-- Handled highly escalated cases with great professionalism.
-- Used critical thinking to break down problems, evaluate solutions and make decisions.
-- Exercised leadership capabilities by successfully motivating and inspiring others; validated new product patches and features in lab environments.
-- Contributed to technical gap analysis for the global team.
-- Supported and instructed less-experienced co-workers through classroom training sessions and on-the-job mentoring.
-- Cascaded knowledge to the local team including new releases, patches, and known bugs.
-- Contributed to and developed knowledge-based articles for customer technical solutions.
-- Worked closely with sales and account management teams to provide technical expertise during pre- and post-sales engagements.
-- Conducted root cause analysis to identify underlying causes of customer issues and recommend preventive solutions.
-- Collaborated with developers to escalate and resolve complex customer issues.
+- Owned complex, high-impact tickets across **Bitbucket** and **Bamboo** as a dual-product engineer.
+- Acted as **internal escalation engineer**, partnering with Tier 3 and Engineering on critical issues.
+- Built training materials, internal docs, and customer-facing KB articles; produced self-paced training videos that improved onboarding and resolution time.
+- Closed ~**2 tickets/day** sustainably while holding **NPS above 80%**.
+- Surfaced recurring issues into problem-management to reduce ticket volume and improve product stability.
 
-### Oracle — Senior Advanced Customer Support Engineer
+### DevTools Support Engineer — Atlassian
+*March 2022 – March 2023 · Amsterdam*
+
+- Handled ~**10 tickets/week** on Bamboo across email, phone, and chat with **85%+ CSAT**.
+- Participated in **24/7 on-call** rotations for critical customer issues.
+- Closed the loop with product development by feeding customer insight back into the roadmap.
+- Authored and maintained KB articles enabling customer self-service.
+
+### Principal Technical Support Engineer — Dell RSA
+*January 2021 – February 2022 · Cairo*
+
+- Owned the highest-severity escalations; ran RCAs and recommended preventive fixes.
+- Validated new product patches and features in lab before release.
+- Contributed to global technical gap analysis; mentored junior engineers via classroom and on-the-job training.
+- Partnered with sales and account management on pre- and post-sales engineering work.
+
+### Senior Advanced Customer Support Engineer — Oracle
 *November 2017 – December 2020 · Egypt*
 
-- Delivered high-quality technical services to ACS customers.
-- Led several migration projects from on-premises to Oracle Cloud.
-- Proactively foresaw existing customer needs and remained engaged with customer-focused activities.
-- Ensured adherence to internal methodology, tools, and quality standards.
-- Adopted and contributed to new processes and tools (DevOps tools, automation scripts, Terraform, Ansible, etc.).
-- Enhanced infrastructure availability through enterprise-wide planning, thorough testing, efficient implementation, and comprehensive support.
-- Managed and resolved customer requests according to product strategy and model.
-- Responded to and resolved customer issues within KPI targets.
-- Maintained up-to-date, in-depth knowledge of new products.
-- Owned and resolved problems while managing customer expectations throughout the lifecycle in accordance with global standards.
-- Implemented several Oracle products (Exadata, SuperCluster, PCA, ZFSSA) at customers across the EMEA region.
+- Led several **on-prem → Oracle Cloud migration** projects.
+- Brought DevOps tooling into ACS delivery — **Terraform, Ansible**, and automation scripts.
+- Implemented **Exadata, SuperCluster, PCA, and ZFSSA** at customers across the EMEA region.
+- Drove a **20% lift in sales leads** by surfacing new services that fit customer roadmaps.
+- Improved delivery margin by shortening project timelines without compromising quality.
 
-### Vodafone — Senior Linux/Unix Systems Engineer
-*October 2016 – November 2017 · Egypt*
+### Senior Systems Engineer — Vodafone Egypt
+*January 2016 – November 2017*
 
-### Vodafone — Linux/Unix Systems Engineer
-*August 2015 – October 2016 · Egypt*
+- Designed and ran virtualised environments on **Oracle T5** and **IBM Power7** with HA at both VM and physical layer.
+- Tuned Solaris/RHEL + Oracle DB performance with **HP OpenView** and **OpsCenter**; applied ZFS pool/filesystem best practices.
+- Led UNIX-side delivery of Billing, CRM provisioning, WAS, IVRDB upgrades, DR drills, and online SAN/storage migrations (CX3 → VNX).
+- 24/7 production support across Solaris, AIX, HP-UX, and RHEL.
 
-### 4GTSS — Systems Engineer
-*April 2014 – August 2015*
+### Systems Engineer — Vodafone Egypt
+*August 2014 – January 2016*
 
-- System Administrator for Number Portability Solutions (NPG) across multiple operating systems.
-- Server management and automation using RHN Satellite, Puppet, Cobbler, and other tools.
-- Systems architecture design.
-- Shell scripting to automate server installation and monitoring tasks.
-- High availability for services including MySQL, Celery, Python, Django, and Lucy.
-- Designed network connectivity between servers and different operators.
+- Supported **200+ servers** in a 24x7 data center on RHEL, Sun Solaris, and Exadata.
+- Patching, performance monitoring, crash and slow-performance analysis.
+- Hands-on hardware ops — replacing faulty parts, server installations, and cabling.
 
-### Mobinil — Network Management Solution Engineer
-*February 2013 – April 2014*
+### Linux System Administrator — 4GTSS
+*March 2013 – August 2014 · Cairo*
 
-- Cisco Routers and Switches Management.
-- Server performance monitoring, trend analysis, and capacity planning.
-- Release management.
-- Routing connections between OMCs and BSCs across multiple vendors.
+- Administered Number Portability (NPG) systems across RHEL, Ubuntu, Fedora, CentOS, and Solaris in **six countries** (Bahrain, Qatar, Kuwait, Sudan, Tunisia, Tanzania).
+- Worked across Django, Celery, RabbitMQ, and MySQL Galera.
+
+### Network Management Solutions Engineer — Orange
+*January 2012 – March 2013*
+
+- Migrated multi-vendor servers, routers, and switches from World Trade Center to the October site.
+- Worked across Alcatel Evolution/G2 and Motorola BSCs over IP/MPLS and ATM core networks.
+- Supported a 12-site interconnect spanning RXCDRs, soft switches, MSCs, BSCs, HLRs, and OMCs.
 
 ---
 
 ## Education
 
-- **Code Institute** — Diploma in Full Stack Software Development *(March 2023 – April 2024)*
-- **Paris ESLSCA Business School** — MBA, Digital Transformation *(July 2020 – November 2022)*
-- **Arab Academy for Science, Technology and Maritime Transport** — B.E., Electronics and Communication Engineering *(2006 – 2011)*
-- **Ghryany International Schools** *(2004 – 2006)*
+- **MBA, Digital Transformation** — Ecole Supérieure Libre des Sciences Commerciales (ESLSCA), Paris · *2023*
+- **B.Sc., Electrical, Electronics & Communications Engineering** — Arab Academy for Science and Technology, Cairo · *2006 – 2011*
 
 ---
 
 ## Certifications
 
-- Certified Kubernetes Administrator (CKA)
-- HashiCorp Certified: Terraform Associate (003)
-- Red Hat® Certified Engineer (RHCE®)
-- Cloud DevOps Engineer
-- Oracle Solaris 11 System Administration
+**Cloud**
+- AWS Certified Solutions Architect – Associate
+- Oracle Cloud Infrastructure 2018 Certified Associate Architect
+- Oracle Cloud Infrastructure Classic 2018 Certified Associate Architect
+- Oracle Cloud Infrastructure 2019 Cloud Operations Associate
 
----
+**Kubernetes, Containers & Orchestration**
+- Red Hat Certified Specialist in Containers and Kubernetes
+- Red Hat Certified Specialist in OpenShift Administration
+- Docker Certified Associate
 
-## Top Skills
+**Infrastructure as Code & Automation**
+- HashiCorp Certified: Terraform Associate
+- Red Hat Certified Specialist in Automation with Ansible
 
-- Continuous Integration and Continuous Delivery (CI/CD)
-- Bitbucket
-- GNU/Linux
+**Red Hat / Linux**
+- Red Hat Certified Architect (RHCA)
+- Red Hat Certified Engineer (RHCE)
+- Red Hat Certified System Administrator *(2023)*
+- Red Hat Certified Virtualization Administrator
+- Red Hat Certificate of Expertise — System Monitoring & Performance Tuning
+- Red Hat Certificate of Expertise — Clustering & Storage Management
+- Red Hat Certificate of Expertise — Server Hardening
+- Red Hat Certificate of Expertise — Deployment & System Management
+
+**Virtualization & Storage**
+- VMware Certified Professional 6.5 — Data Center Virtualization
+- Veritas Certified Storage Foundation for Unix 6.1 Administration
+- Oracle Solaris 11 Advanced System Administrator
+- Oracle Solaris 11 System Administrator
+
+**Networking & Service Management**
+- Cisco Certified Network Associate (CCNA)
+- Cisco Certified Network Associate Security (CCNA Security)
+- ITIL v3 Foundation
+
+**Databases**
+- MongoDB Certified DBA Associate
 
 ---
 
 ## Languages
 
-- **English** — Full Professional
-- **Arabic** — Native or Bilingual
-- **Dutch** — Elementary
-- **German** — Elementary
+- **English** — Full professional
+- **Dutch** — Limited working
