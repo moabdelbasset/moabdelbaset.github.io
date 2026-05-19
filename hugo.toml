@@ -21,9 +21,6 @@ theme = 'PaperMod'
         [[params.profileMode.buttons]]
             name = 'Blog / TIL'
             url = '/posts'
-        [[params.profileMode.buttons]]
-            name = 'Project Board'
-            url = '/kanban'
 
     [[params.socialIcons]]
         name = 'github'
@@ -39,17 +36,7 @@ theme = 'PaperMod'
         url = '/posts/'
         weight = 10
     [[menu.main]]
-        identifier = 'board'
-        name = 'Board'
-        url = '/kanban/'
-        weight = 15
-    [[menu.main]]
         identifier = 'tags'
         name = 'Tags'
         url = '/tags/'
         weight = 20
-
-[markup]
-    [markup.goldmark]
-        [markup.goldmark.renderer]
-            unsafe = true
