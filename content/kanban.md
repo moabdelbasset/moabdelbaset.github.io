@@ -25,21 +25,7 @@ A public roadmap for this site. Work is planned in the open and shipped iterativ
 <div class="kanban-column">
 <div class="kanban-column-header">
 <h3 class="kanban-column-title">Backlog</h3>
-<span class="kanban-column-count">13</span>
-</div>
-
-<div class="kanban-card">
-<span class="kanban-tag feature">Feature</span>
-<div class="kanban-card-title">Collapse promoted roles in CV</div>
-<div class="kanban-card-desc">Merge multiple entries at the same company (Atlassian, Vodafone) into a single entry with the final title, so the timeline reads as fewer moves.</div>
-<div class="kanban-card-meta">area: cv</div>
-</div>
-
-<div class="kanban-card">
-<span class="kanban-tag feature">Feature</span>
-<div class="kanban-card-title">Tighten CV claims to actual strengths</div>
-<div class="kanban-card-desc">Trim "spicy" phrasing. Lead with what I genuinely do well day-to-day rather than aspirational scope. No exaggeration.</div>
-<div class="kanban-card-meta">area: cv</div>
+<span class="kanban-column-count">11</span>
 </div>
 
 <div class="kanban-card">
@@ -139,14 +125,28 @@ A public roadmap for this site. Work is planned in the open and shipped iterativ
 <div class="kanban-column">
 <div class="kanban-column-header">
 <h3 class="kanban-column-title">Done</h3>
-<span class="kanban-column-count">4</span>
+<span class="kanban-column-count">6</span>
+</div>
+
+<div class="kanban-card">
+<span class="kanban-tag pr">PR</span>
+<div class="kanban-card-title">Collapse promoted roles in CV</div>
+<div class="kanban-card-desc">Atlassian and Vodafone Egypt entries merged into one each, with final title and a "Promoted from..." note. Timeline reads as four employers instead of seven.</div>
+<div class="kanban-card-meta">commit: this PR</div>
+</div>
+
+<div class="kanban-card">
+<span class="kanban-tag pr">PR</span>
+<div class="kanban-card-title">Tighten CV claims to actual strengths</div>
+<div class="kanban-card-desc">Profile rewritten to lead with Linux, Ansible, Terraform, and senior support engineering — the actual day-to-day. Dropped aspirational phrasing about architecting K8s platforms.</div>
+<div class="kanban-card-meta">commit: this PR</div>
 </div>
 
 <div class="kanban-card">
 <span class="kanban-tag pr">PR</span>
 <div class="kanban-card-title">Ship public project board</div>
 <div class="kanban-card-desc">Add /kanban page, kanban CSS, menu item, and profile button. Goldmark unsafe HTML enabled for card markup.</div>
-<div class="kanban-card-meta">commit: this PR</div>
+<div class="kanban-card-meta">commit: 9d28ec1</div>
 </div>
 
 <div class="kanban-card">
