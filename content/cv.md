@@ -13,7 +13,7 @@ ShowPostNavLinks = false
 
 # Mohamed Ayman Abdelbaset
 
-### DevOps Engineer — Infrastructure & Automation
+### Solutions Architect · DevOps & Cloud Infrastructure
 
 Diemen, Netherlands  ·  [mohamedayman@hotmail.com](mailto:mohamedayman@hotmail.com)  ·  [LinkedIn](https://www.linkedin.com/in/mohamed-abdelbasset-b29b5b66/)  ·  [GitHub](https://github.com/moabdelbasset)
 
@@ -21,16 +21,16 @@ Diemen, Netherlands  ·  [mohamedayman@hotmail.com](mailto:mohamedayman@hotmail.
 
 ## Profile
 
-DevOps engineer with **10+ years** across Linux/Unix administration, infrastructure automation, and senior support engineering. Strongest with **Linux**, **Ansible**, **Terraform**, and troubleshooting hard problems in production environments. Most of my career has been in senior and principal support engineering roles — owning messy escalations, writing the runbooks, and pushing fixes back into the products I support. Comfortable with Kubernetes, OpenShift, and multi-cloud work across AWS, GCP, Azure, and Oracle Cloud.
+Solutions-focused infrastructure engineer with **10+ years** across Linux/Unix, infrastructure automation, and enterprise cloud delivery. I pair deep, hands-on product knowledge — earned architecting deployments and owning the hardest escalations — with the ability to design solutions and translate customer needs into working architecture. Strongest with **Linux, Ansible/AAP, Terraform, OpenShift, and Kubernetes** across **AWS, Azure, GCP, and Oracle Cloud**. I've architected multi-cloud platforms, led on-prem-to-cloud migrations, and served as the trusted technical authority for enterprise customers on the products I support. **Red Hat Certified Architect (RHCA)** working toward a Solutions Architect path.
 
 ## Highlights
 
-- **10+ years** in Linux administration, infrastructure automation, and senior support engineering
-- Architected and automated the **multi-cloud Terraform Enterprise deployment** across AWS, Azure, and GCP at IBM
-- Multi-cloud hands-on across **AWS, GCP, Azure, and OCI**
-- Sustained **NPS above 85%** across senior support roles at IBM and Atlassian
-- Led **on-prem → Oracle Cloud** migrations at Oracle ACS across EMEA
-- Supported **200+ servers** in 24x7 telecom and enterprise data centers
+- **Architected and automated a multi-cloud Terraform Enterprise platform** across AWS, Azure, and GCP at IBM.
+- Trusted technical authority for enterprise customers on Terraform Enterprise, Bitbucket, and Bamboo — advising on architecture, best practice, and product direction.
+- Led **on-prem → Oracle Cloud** migrations across EMEA, bringing Terraform and Ansible into delivery.
+- Implemented enterprise engineered systems — **Exadata, SuperCluster, PCA, ZFSSA** — at customers across the region.
+- **Red Hat Certified Architect (RHCA)** plus Terraform, OpenShift, Kubernetes, and Ansible/AAP (EX374) specialist certifications.
+- Multi-cloud, hands-on across **AWS, GCP, Azure, and OCI**.
 
 ---
 
@@ -39,14 +39,17 @@ DevOps engineer with **10+ years** across Linux/Unix administration, infrastruct
 **Cloud Platforms**
 AWS · Google Cloud Platform · Microsoft Azure · Oracle Cloud Infrastructure
 
+**Solution Design & Delivery**
+Solution architecture · Multi-cloud design · Migration planning & delivery · Technical pre-sales & solution scoping · Customer enablement · Requirements → architecture translation
+
 **Infrastructure as Code & Automation**
-Terraform · Terraform Enterprise · Ansible · Shell scripting · Process automation
+Terraform · Terraform Enterprise · Ansible · Ansible Automation Platform (AAP) · Execution Environments · Shell scripting · GitOps
 
 **Containers & Orchestration**
 Kubernetes · Docker · OpenShift
 
 **CI/CD & DevTools**
-Bitbucket · Bamboo · Continuous integration & delivery pipelines
+GitHub Actions · Bitbucket · Bamboo · Continuous integration & delivery pipelines
 
 **Operating Systems**
 Red Hat Enterprise Linux · CentOS · Ubuntu · Fedora · Solaris · AIX · HP-UX
@@ -65,37 +68,36 @@ Agile delivery · Incident & escalation management · Technical mentoring · Doc
 *October 2025 – Present · Amsterdam*
 
 - **Architected and automated the multi-cloud deployment of Terraform Enterprise** across AWS, Azure, and GCP.
-- Primary technical point of contact for key enterprise clients on Terraform Enterprise infrastructure.
-- Drive accurate, fast issue resolution while documenting each case to keep internal runbooks current.
-- Sustained an **NPS above 85%**.
+- Primary technical authority for key enterprise clients on Terraform Enterprise infrastructure and architecture.
+- Advise customers on deployment design and best practice while keeping internal runbooks current.
+- Sustained an **NPS above 85%** as a measure of customer trust.
 
 ### Senior DevTools Support Engineer — Atlassian
 *March 2022 – September 2025 · Amsterdam*
 *Promoted from DevTools Support Engineer (Mar 2023)*
 
-- Owned complex, high-impact tickets across **Bitbucket** and **Bamboo** as a dual-product engineer.
-- Acted as **internal escalation engineer**, partnering with Tier 3 and Engineering on critical issues.
-- Closed ~**2 tickets/day** sustainably while holding **NPS above 80%** and **CSAT above 85%**.
-- Built training materials, internal docs, customer-facing KB articles, and self-paced training videos to improve onboarding and resolution time.
-- Surfaced recurring issues into problem-management to reduce ticket volume and improve product stability.
-- Closed the loop with product development by feeding customer insight back into the roadmap.
+- Deep product authority across **Bitbucket** and **Bamboo** as a dual-product engineer, owning the most complex, high-impact enterprise cases.
+- Acted as **internal escalation engineer**, partnering with Tier 3 and Engineering to resolve critical architectural issues.
+- Advised customers on CI/CD pipeline design and DevTools best practice.
+- Built training material, internal docs, and customer-facing KB articles to scale product knowledge across teams.
+- Fed recurring customer insight back into product and problem-management to improve stability and reduce future issues.
 - Participated in **24/7 on-call** rotations for critical customer issues.
 
 ### Principal Technical Support Engineer — Dell RSA
 *January 2021 – February 2022 · Cairo*
 
-- Owned the highest-severity escalations; ran RCAs and recommended preventive fixes.
+- Owned the highest-severity escalations end to end; ran root-cause analysis and designed preventive fixes.
 - Validated new product patches and features in lab before release.
-- Contributed to global technical gap analysis; mentored junior engineers via classroom and on-the-job training.
-- Partnered with sales and account management on pre- and post-sales engineering work.
+- Contributed to global technical gap analysis and mentored junior engineers.
+- Partnered with account teams on technical pre- and post-sales engineering.
 
-### Senior Advanced Customer Support Engineer — Oracle
+### Senior Delivery / Implementation Engineer — Oracle (Advanced Customer Support)
 *November 2017 – December 2020 · Egypt*
 
-- Led several **on-prem → Oracle Cloud migration** projects.
+- Led several **on-prem → Oracle Cloud migration** projects from design through delivery.
 - Brought DevOps tooling into ACS delivery — **Terraform, Ansible**, and automation scripts.
 - Implemented **Exadata, SuperCluster, PCA, and ZFSSA** at customers across the EMEA region.
-- Drove a **20% lift in sales leads** by surfacing new services that fit customer roadmaps.
+- Identified automation and cloud-service opportunities aligned to customer roadmaps, scoping the right technical fit.
 - Improved delivery margin by shortening project timelines without compromising quality.
 
 ### Senior Systems Engineer — Vodafone Egypt
@@ -105,9 +107,8 @@ Agile delivery · Incident & escalation management · Technical mentoring · Doc
 - Designed and ran virtualised environments on **Oracle T5** and **IBM Power7** with HA at both VM and physical layer.
 - Tuned Solaris/RHEL + Oracle DB performance with **HP OpenView** and **OpsCenter**; applied ZFS pool/filesystem best practices.
 - Led UNIX-side delivery of Billing, CRM provisioning, WAS, IVRDB upgrades, DR drills, and online SAN/storage migrations (CX3 → VNX).
-- Supported **200+ servers** in a 24x7 data center on RHEL, Sun Solaris, and Exadata — patching, performance monitoring, and crash/slow-performance analysis.
-- Hands-on hardware ops alongside software work: replacing faulty parts, server installations, and cabling.
-- 24/7 production support across Solaris, AIX, HP-UX, and RHEL.
+- Supported **200+ servers** in a 24x7 data center on RHEL, Sun Solaris, and Exadata.
+- Hands-on hardware ops alongside software work: part replacement, server installations, and cabling.
 
 ### Linux System Administrator — 4GTSS
 *March 2013 – August 2014 · Cairo*
@@ -124,6 +125,14 @@ Agile delivery · Incident & escalation management · Technical mentoring · Doc
 
 ---
 
+## Selected Projects
+
+- **Containerized AAP 2.6 home lab** — Built an all-in-one containerized Ansible Automation Platform deployment on a Proxmox lab (subscription manifest, private registry service account, execution environments) as a live environment for developing and testing automation.
+- **This site** — A Hugo blog deployed to GitHub Pages via GitHub Actions, documenting hands-on DevOps and certification work. [moabdelbaset.github.io](https://moabdelbaset.github.io)
+- **Public engineering board** — Track work and learning in the open using GitHub Projects, seeded programmatically.
+
+---
+
 ## Education
 
 - **MBA, Digital Transformation** — Ecole Supérieure Libre des Sciences Commerciales (ESLSCA), Paris · *2023*
@@ -133,20 +142,15 @@ Agile delivery · Incident & escalation management · Technical mentoring · Doc
 
 ## Certifications
 
-**Cloud**
-- AWS Certified Solutions Architect – Associate
-- Oracle Cloud Infrastructure 2018 Certified Associate Architect
-- Oracle Cloud Infrastructure Classic 2018 Certified Associate Architect
-- Oracle Cloud Infrastructure 2019 Cloud Operations Associate
-
-**Kubernetes, Containers & Orchestration**
-- Red Hat Certified Specialist in Containers and Kubernetes
-- Red Hat Certified Specialist in OpenShift Administration
-- Docker Certified Associate
-
 **Infrastructure as Code & Automation**
+- Red Hat Certified Specialist in Developing Automation with Ansible Automation Platform (EX374) · *2026*
 - HashiCorp Certified: Terraform Associate
 - Red Hat Certified Specialist in Automation with Ansible
+
+**Kubernetes, Containers & Orchestration**
+- Red Hat Certified Specialist in OpenShift Administration
+- Red Hat Certified Specialist in Containers and Kubernetes
+- Docker Certified Associate
 
 **Red Hat / Linux**
 - Red Hat Certified Architect (RHCA)
@@ -157,6 +161,12 @@ Agile delivery · Incident & escalation management · Technical mentoring · Doc
 - Red Hat Certificate of Expertise — Clustering & Storage Management
 - Red Hat Certificate of Expertise — Server Hardening
 - Red Hat Certificate of Expertise — Deployment & System Management
+
+**Cloud**
+- AWS Certified Solutions Architect – Associate
+- Oracle Cloud Infrastructure 2018 Certified Associate Architect
+- Oracle Cloud Infrastructure Classic 2018 Certified Associate Architect
+- Oracle Cloud Infrastructure 2019 Cloud Operations Associate
 
 **Virtualization & Storage**
 - VMware Certified Professional 6.5 — Data Center Virtualization
