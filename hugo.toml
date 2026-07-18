@@ -2,17 +2,44 @@ baseURL = 'https://blog.aymantech.net'
 languageCode = 'en-us'
 title = 'Mohamed Ayman | DevOps & Infrastructure'
 theme = 'PaperMod'
+enableRobotsTXT = true
+
+[outputs]
+    home = ['HTML', 'RSS', 'JSON']
 
 [params]
     env = 'production'
-    description = 'DevOps Engineer specializing in Kubernetes, Terraform, and Automation.'
+    description = 'Solutions architect and DevOps engineer designing reliable multi-cloud infrastructure with Terraform, Ansible, Kubernetes, and OpenShift.'
     author = 'Mohamed Ayman'
+    keywords = ['Solutions Architecture', 'DevOps', 'Terraform', 'Ansible', 'Kubernetes', 'OpenShift', 'Multi-cloud']
+    images = ['/images/mohamed-ayman-social-card.png']
+    mainSections = ['posts']
+    defaultTheme = 'auto'
+    disableSpecial1stPost = true
+    ShowReadingTime = true
+    ShowBreadCrumbs = true
+    ShowPostNavLinks = true
+    ShowCodeCopyButtons = true
+    ShowRssButtonInSectionTermList = true
+    DateFormat = 'Jan 2, 2006'
+
+    [params.assets]
+        favicon = '/favicon.ico'
+        favicon16x16 = '/favicon-16x16.png'
+        favicon32x32 = '/favicon-32x32.png'
+        apple_touch_icon = '/apple-touch-icon.png'
+        safari_pinned_tab = '/favicon-32x32.png'
+        theme_color = '#102238'
+        msapplication_TileColor = '#102238'
+
+    [params.label]
+        text = 'Mohamed Ayman'
 
     [params.profileMode]
-        enabled = true
+        enabled = false
         title = 'Mohamed Ayman'
         subtitle = 'DevOps & Infrastructure Engineer | Based in the Netherlands 🇳🇱'
-        imageUrl = '' # Add a link to your photo later if you want
+        imageUrl = ''
         imageTitle = 'Ayman'
         
         [[params.profileMode.buttons]]
@@ -32,11 +59,26 @@ theme = 'PaperMod'
 [menu]
     [[menu.main]]
         identifier = 'posts'
-        name = 'Posts'
+        name = 'Blog'
         url = '/posts/'
         weight = 10
     [[menu.main]]
-        identifier = 'tags'
-        name = 'Tags'
-        url = '/tags/'
+        identifier = 'projects'
+        name = 'Projects'
+        url = '/projects/'
         weight = 20
+    [[menu.main]]
+        identifier = 'cv'
+        name = 'CV'
+        url = '/cv/'
+        weight = 30
+    [[menu.main]]
+        identifier = 'about'
+        name = 'About'
+        url = '/about/'
+        weight = 40
+    [[menu.main]]
+        identifier = 'search'
+        name = 'Search'
+        url = '/search/'
+        weight = 50

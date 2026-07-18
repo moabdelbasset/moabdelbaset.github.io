@@ -2,7 +2,10 @@
 title = 'I Passed EX374: What to Focus On for the Ansible Automation Platform Exam'
 date = 2026-07-02T21:00:00+02:00
 draft = false
-tags = ["Ansible", "Red Hat", "Automation", "Certifications", "AAP", "EX374"]
+description = 'What to practise for Red Hat EX374: ansible-navigator, execution environments, Automation Controller, Git, and reusable automation.'
+summary = 'The practical areas that mattered most in my EX374 preparation, from execution environments and Automation Controller to Git and reusable content.'
+tags = ["Ansible", "Red Hat", "Automation", "Certifications"]
+keywords = ["EX374", "Ansible Automation Platform", "ansible-navigator", "execution environments", "Automation Controller"]
 +++
 
 It's official — I **passed the EX374 exam**, the Red Hat Certified Specialist in Developing Automation with Ansible Automation Platform. This one is the natural next step after my earlier [Road to EX374](/posts/preparing-for-ex374/) post, and getting there took a lot of hands-on lab time rather than reading alone.

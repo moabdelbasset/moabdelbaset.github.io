@@ -2,7 +2,10 @@
 title = 'Road to EX374: Developing Automation with Ansible'
 date = 2026-04-20T22:45:00+02:00
 draft = false
-tags = ["Ansible", "Red Hat", "Automation", "Certifications", "AAP"]
+description = 'How I prepared for EX374 with AAP 2.6, Ansible Navigator, execution environments, Git workflows, and hands-on lab practice.'
+summary = 'My hands-on EX374 preparation setup: a containerized AAP 2.6 lab, Git-based content, execution environments, and Ansible Navigator.'
+tags = ["Ansible", "Red Hat", "Automation", "Certifications"]
+keywords = ["EX374", "Ansible Automation Platform", "AAP 2.6", "execution environments", "Ansible Navigator"]
 +++
 
 I have officially started my preparation for the **Red Hat Certified Specialist in Developing Automation with Ansible Automation Platform (EX374)** exam. This exam is a deep dive into the modern Ansible ecosystem, focusing on execution environments, automation controller, and professional content development.

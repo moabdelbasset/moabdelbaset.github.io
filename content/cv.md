@@ -1,7 +1,8 @@
 +++
-title = 'CV'
+title = 'Mohamed Ayman Abdelbaset — CV'
 date = '2026-05-17'
 draft = false
+description = 'Solutions architect and DevOps engineer with 10+ years across infrastructure automation, enterprise cloud delivery, and Linux platforms.'
 showToc = true
 TocOpen = false
 hidemeta = true
@@ -11,11 +12,9 @@ ShowBreadCrumbs = false
 ShowPostNavLinks = false
 +++
 
-# Mohamed Ayman Abdelbaset
+## Solutions Architect · DevOps & Cloud Infrastructure
 
-### Solutions Architect · DevOps & Cloud Infrastructure
-
-Diemen, Netherlands  ·  [mohamedayman@hotmail.com](mailto:mohamedayman@hotmail.com)  ·  [LinkedIn](https://www.linkedin.com/in/mohamed-abdelbasset-b29b5b66/)  ·  [GitHub](https://github.com/moabdelbasset)
+**[Download printable PDF](/mohamed-ayman-cv.pdf)**  ·  Diemen, Netherlands  ·  [mohamedayman@hotmail.com](mailto:mohamedayman@hotmail.com)  ·  [LinkedIn](https://www.linkedin.com/in/mohamed-abdelbasset-b29b5b66/)  ·  [GitHub](https://github.com/moabdelbasset)
 
 ---
 

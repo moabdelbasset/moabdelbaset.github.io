@@ -1,1 +1,9 @@
-#
+# Hugo-generated output
+/public/
+/resources/_gen/
+/output/
+/tmp/
+.hugo_build.lock
+
+# Local system files
+.DS_Store

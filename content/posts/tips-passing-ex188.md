@@ -2,7 +2,10 @@
 title = 'Tips for Passing the EX188: Red Hat Certified Specialist in Containers'
 date = 2026-07-04T10:00:00+02:00
 draft = false
-tags = ["Containers", "Podman", "Red Hat", "Certifications", "EX188"]
+description = 'Practical EX188 preparation advice for Podman, rootless containers, systemd integration, lab work, and effective exam-day habits.'
+summary = 'A hands-on preparation guide for EX188 covering Podman muscle memory, rootless containers, systemd integration, and exam-day habits.'
+tags = ["Containers", "Podman", "Red Hat", "Certifications"]
+keywords = ["EX188", "Podman", "rootless containers", "systemd", "Red Hat containers exam"]
 +++
 
 I want to share the study habits and small tactical choices that worked for me while preparing for the **Red Hat Certified Specialist in Containers (EX188)** exam. This is a hands-on, performance-based exam focused on running, building, and managing containers on Red Hat Enterprise Linux with **Podman** — no OpenShift, no Kubernetes, just the container runtime fundamentals.

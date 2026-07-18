@@ -1,0 +1,31 @@
+{{- define "main" }}
+<header class="portfolio-header">
+  {{- partial "breadcrumbs.html" . }}
+  <p class="eyebrow">Selected work</p>
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}<p>{{ . }}</p>{{- end }}
+</header>
+
+{{- with .Content }}
+<div class="portfolio-intro md-content">{{ . }}</div>
+{{- end }}
+
+<section class="project-list" aria-label="Project case studies">
+  {{- range .Pages.ByWeight }}
+  <article class="project-list-card">
+    <div class="project-list-meta">
+      <span>{{ .Params.kicker }}</span>
+      {{- with .Params.year }}<span>{{ . }}</span>{{- end }}
+    </div>
+    <div class="project-list-content">
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <p>{{ .Summary | plainify }}</p>
+      {{- with .Params.stack }}
+      <div class="skill-row">{{- range . }}<span>{{ . }}</span>{{- end }}</div>
+      {{- end }}
+    </div>
+    <a class="note-arrow" href="{{ .RelPermalink }}" aria-label="Read {{ .Title }}">→</a>
+  </article>
+  {{- end }}
+</section>
+{{- end }}
