@@ -26,7 +26,7 @@ I have replaced my own host address and token with placeholders. Do not publish 
 The Proxmox provider uses two separate paths:
 
 - The **Proxmox API on port 8006** is used to manage VM resources.
-- **SSH** is used to upload cloud images and cloud-init or Ignition files to the Proxmox host.
+- **SSH** is used to run host-side image staging commands and upload cloud-init or Ignition files.
 
 This distinction matters. A working API token is not enough to download an image and build a usable cloud-init VM; the Mac running kcli must also be able to reach the Proxmox host over SSH without a password prompt.
 
@@ -126,7 +126,7 @@ Then verify that SSH no longer prompts for a password:
 ssh root@<PVE_HOST_OR_IP> hostname
 ```
 
-The command must return the Proxmox node name without asking for a password. This is mandatory because kcli transfers images and cloud-init files over SSH rather than through the API.
+The command must return the Proxmox node name without asking for a password. This is mandatory because kcli runs image staging commands and transfers cloud-init files over SSH rather than through the API.
 
 ## Enable the required storage content types
 
@@ -145,9 +145,18 @@ Enable:
 In this guide:
 
 - `local-lvm` stores VM disks.
-- `local` stores downloaded images, ISOs, and snippets.
+- `local` provides kcli's temporary import staging path and stores snippets.
+- `<PVE_IMAGE_STORAGE>` stores the reusable cloud-image template.
 
 Change those names if your Proxmox storage is configured differently.
+
+The target image storage must support the Proxmox `images` content type and appear in:
+
+```bash
+kcli list pool
+```
+
+A storage can exist in `pvesm status` but remain invisible to kcli when it does not support VM images.
 
 ## Configure the Proxmox provider
 
@@ -173,7 +182,7 @@ homelab:
   auth_token_name: kcli
   auth_token_secret: ?secret
   pool: local-lvm
-  imagepool: local
+  imagepool: <PVE_IMAGE_STORAGE>
   node: <PVE_NODE_NAME>
   filtertag: kcli
   verify_ssl: false
@@ -263,7 +272,7 @@ Download a CentOS Stream 9 cloud image:
 kcli download image centos9stream
 ```
 
-kcli downloads the image to the client environment and transfers it to `imagepool` on the Proxmox host over SSH. If this step fails after `kcli list vm` succeeded, investigate SSH access and the storage content settings first.
+With the current Proxmox provider, kcli opens an SSH session and runs the image download on the Proxmox host. It stages the file under `local`, imports it into `imagepool`, and then removes the staging file. If this step fails after `kcli list vm` succeeded, investigate SSH access, free space on `local`, and the target storage's `images` capability first.
 
 ## Create the first VM
 
@@ -410,7 +419,8 @@ Be careful with shell history when testing a real secret on the command line. Re
 - Verify passwordless SSH from the Mac to the Proxmox host.
 - Confirm that the kcli container can read the expected key from `~/.ssh`.
 - Confirm that `imagepool` exactly matches the Proxmox storage name.
-- Confirm that the storage allows image import.
+- Confirm that `imagepool` appears in `kcli list pool` and supports `images`.
+- Confirm that `local` has enough free space for the temporary download.
 
 ### The VM starts but SSH is refused
 
@@ -445,6 +455,8 @@ kcli ssh testvm
 ```
 
 That turns my Mac into a lightweight control point for the Proxmox home lab. I can keep reusable profiles and plans in Git while the API token stays protected in `~/.kcli/secrets.yml`.
+
+The next step is [deploying a single-node k3s Kubernetes cluster with kcli](/posts/deploy-single-node-k3s-proxmox-kcli/).
 
 ## References
 
