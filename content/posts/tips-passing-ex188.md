@@ -86,4 +86,4 @@ Running containers as systemd units is one of the more nuanced parts of the Podm
 
 Treat EX188 as a **fundamentals** exam, not a hard one. Red Hat is deliberately setting up a shared container base before you specialise into OpenShift or Kubernetes. Get the fundamentals fully automatic here and every downstream exam gets easier.
 
-Next stop for me: doubling down on the OpenShift specialist track. More posts to come.
+Next stop for me: [preparing for the EX280 OpenShift administration exam](/posts/preparing-for-ex280/).
