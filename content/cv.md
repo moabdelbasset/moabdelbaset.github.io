@@ -147,6 +147,9 @@ Agile delivery · Incident & escalation management · Technical mentoring · Doc
 - Red Hat Certified Specialist in Automation with Ansible
 
 **Kubernetes, Containers & Orchestration**
+- Certified Kubernetes Application Developer
+- Red Hat Certified System Administrator in OpenShift
+- Red Hat Certified Developer in Cloud-native Applications
 - Red Hat Certified Specialist in OpenShift Administration
 - Red Hat Certified Specialist in Containers and Kubernetes
 - Docker Certified Associate
