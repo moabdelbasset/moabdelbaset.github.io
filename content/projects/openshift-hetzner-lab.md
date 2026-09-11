@@ -50,7 +50,7 @@ The deployment covered:
 
 The deployment required coordinating the automation with the Assisted Installer console. I created the cluster and discovery image in the console, then supplied that image to the VM deployment workflow. When the playbook prompted for the ISO, I copied it into the expected libvirt image location before continuing.
 
-Access also depended on both hostname resolution and forwarding traffic to the correct internal VIP. For the documented deployment, I added local hosts-file entries for the API, console, and OAuth endpoints. Moving those records to Cloudflare DNS was a planned follow-up.
+Access also depended on both hostname resolution and forwarding traffic to the correct internal VIP. For the documented deployment, I added local hosts-file entries for the API, console, and OAuth endpoints. During the later [Flask GitOps delivery project](/projects/gitops-flask-openshift/), I completed that follow-up: switching the cluster records in Cloudflare to DNS only restored access without local hosts-file overrides.
 
 ## Verified outcome
 
