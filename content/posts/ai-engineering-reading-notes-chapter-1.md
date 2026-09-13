@@ -1,7 +1,7 @@
 +++
 title = 'AI Engineering Reading Notes — Chapter 1: Foundation Models'
 date = 2026-09-13T12:00:00+03:00
-draft = true
+draft = false
 description = 'My notes on language models, tokens, self-supervision, and adapting foundation models from Chapter 1 of AI Engineering by Chip Huyen.'
 summary = 'Reading Chapter 1 of AI Engineering: how language models learn, what makes a foundation model useful, and why adapting an existing model is a practical starting point.'
 tags = ['Reading Notes', 'AI Engineering', 'Foundation Models']
