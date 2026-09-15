@@ -105,3 +105,7 @@ Three differences stood out in my notes:
 - **Open-ended outputs:** many foundation-model applications generate text or other content with multiple acceptable answers. Evaluating a product description is less straightforward than checking whether a photo was correctly classified as a cat or dog.
 
 The practical idea I want to carry into the next chapters is that choosing a capable model is only the beginning. I also need to understand how to adapt it to the application and judge whether its outputs meet the intended need.
+
+---
+
+Next: [Chapter 2 — Understanding Foundation Models](/posts/ai-engineering-reading-notes-chapter-2/)
