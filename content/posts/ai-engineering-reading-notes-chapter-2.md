@@ -134,3 +134,5 @@ Those details help explain why two models—or two configurations of the same mo
 ---
 
 Previous: [Chapter 1 — Foundation Models](/posts/ai-engineering-reading-notes-chapter-1/)
+
+Next: [Chapter 3 — Evaluation Methodologies](/posts/ai-engineering-reading-notes-chapter-3/)
